@@ -1,8 +1,20 @@
 .container {
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 28px 0;
 }
 
 .number {
+    margin: 0 12px;
+    color: #000000;
+    font-family: Montserrat sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
